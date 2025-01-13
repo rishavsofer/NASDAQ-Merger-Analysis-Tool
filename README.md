@@ -40,23 +40,11 @@ This tool leverages Yahoo Finance for live data, performs time-series analysis u
   - `matplotlib`
   - `scipy`
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/nasdaq-merger-analysis-tool.git
-   cd nasdaq-merger-analysis-tool
-   ```
-2. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 1. Run the script:
    ```bash
-   python nasdaq_merger_analysis.py
+   python nasdaq_merger_analysis_tool.py
    ```
 2. Enter the tickers of two NASDAQ-listed companies when prompted (e.g., `AAPL` and `MSFT`).
 3. View the detailed analysis of market cap, stock trends, and merger decision in the console.
@@ -89,10 +77,6 @@ Both companies show positive stock trends. Merger may be favorable.
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
